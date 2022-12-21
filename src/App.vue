@@ -9,12 +9,7 @@ export default {
     AppHeader,
     AppMain,
     AppFooter
-},
-  data() {
-    return {
-      store,
-    }
-  }
+  },
 }
 </script>
 
@@ -24,6 +19,7 @@ export default {
     <AppFooter />
 </template>
 
-<style>
-
+<style lang="scss">
+  @use './style/general.scss' as *;
+  @use './style/partials/partials.scss' as *;
 </style>
