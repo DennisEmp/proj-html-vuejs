@@ -5,6 +5,8 @@ import AppSignUp from "./AppSignUp.vue"
 import AppInfo from "./AppInfo.vue"
 import AppReview from "./AppReview.vue"
 import AppPicture from "./AppPicture.vue"
+import AppPng from "./AppPng.vue"
+import AppTrainers from "./AppTrainers.vue"
 
 export default {
     name: "AppMain",
@@ -13,7 +15,9 @@ export default {
         AppSignUp,
         AppInfo,
         AppReview,
-        AppPicture
+        AppPicture,
+        AppPng,
+        AppTrainers
     }
 }
 </script>
@@ -24,6 +28,8 @@ export default {
   <AppInfo />
   <AppReview />
   <AppPicture />
+  <AppPng />
+  <AppTrainers />
 </template>
 
 <style>
