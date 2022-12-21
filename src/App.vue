@@ -19,7 +19,9 @@ export default {
 </script>
 
 <template>
-  
+    <AppHeader />
+    <AppMain />
+    <AppFooter />
 </template>
 
 <style>
