@@ -7,6 +7,7 @@ import AppReview from "./AppReview.vue"
 import AppPicture from "./AppPicture.vue"
 import AppPng from "./AppPng.vue"
 import AppTrainers from "./AppTrainers.vue"
+import AppAchieve from "./AppAchieve.vue"
 
 export default {
     name: "AppMain",
@@ -17,7 +18,8 @@ export default {
         AppReview,
         AppPicture,
         AppPng,
-        AppTrainers
+        AppTrainers,
+        AppAchieve
     }
 }
 </script>
@@ -30,6 +32,7 @@ export default {
   <AppPicture />
   <AppPng />
   <AppTrainers />
+  <AppAchieve />
 </template>
 
 <style>
