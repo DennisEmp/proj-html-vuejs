@@ -9,7 +9,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faBicycle, faCloud, faHeartPulse, faLink, } from '@fortawesome/free-solid-svg-icons'
+import { faBicycle, faCloud, faHeartPulse, faLink} from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+
 
 /* add icons to the library */
 library.add(faBicycle, faLink, faCloud,faHeartPulse)

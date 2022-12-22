@@ -41,7 +41,8 @@ export default {
 
 .bg {
     background-image: url('../assets/img/home-banner.jpg');
-    height: 1079px;
+    background-size: contain;
+    height: 893px;
     display: flex;
     justify-content: center;
 }
@@ -56,7 +57,6 @@ export default {
     text-align: center;
     position: fixed;
     z-index: 999;
-    gap: 760px;
     padding: 65px;
     width: 100%;
 }
